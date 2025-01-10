@@ -17,8 +17,13 @@ then, import ArduinoUnoR3 module:
 
 ```
 from pyduino import ArduinoUnoR3
-arduino = ArduinoUnoR3()
+arduino = ArduinoUnoR3(port_input, baudrate, pin_config)
 ```
+*port_input is only needed, if you have multiple arduinos connected at the same time.*
+
+*baudrate can also be left out, if you haven't changed the baudrate in the Arduinos Firmware.*
+
+*pin_config is also no requirenment. The librarys basic functions work without it, but you have to define the pins, if you want to actually control something or read from pins. more information in the [documentation](https://github.com/back-from-black/pyduino/blob/main/docs/work_in_progress.md)*
 
 and lastly, connect to the Arduino:
 
