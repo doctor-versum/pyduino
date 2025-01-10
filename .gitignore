@@ -1,0 +1,23 @@
+# Python spezifisch
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+ENV/
+
+# Temporäre Dateien oder Testskripte (anpassen, falls sie wichtig sind)
+test.py
+countdow.py
+
+# VS Code spezifisch
+.vscode/
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+
+# Betriebssystem- und Editor-spezifisch
+.DS_Store
+.idea/
