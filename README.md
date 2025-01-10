@@ -26,4 +26,18 @@ and lastly, connect to the Arduino:
 arduino.connect()
 ```
 
-Thats it. there is
+Thats it. there is more you can do, but thats all, you have to do, to get the library to work.
+
+# Optional
+
+import the Management module:
+
+```
+from arduino_py import Management
+settings = Management()
+```
+and now, you can change the logging and probably later also some other settings.
+```
+settigns.set_logging(5)
+```
+A full explenation on, what every level does, is available in the documentation.
