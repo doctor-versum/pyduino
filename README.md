@@ -16,7 +16,7 @@ first, upload the Arduino remote firmware to the arduino. Open the Arduino IDE o
 then, import ArduinoUnoR3 module:
 
 ```
-from arduino_py import ArduinoUnoR3
+from pyduino import ArduinoUnoR3
 arduino = ArduinoUnoR3()
 ```
 
@@ -33,7 +33,7 @@ Thats it. there is more you can do, but thats all, you have to do, to get the li
 import the Management module:
 
 ```
-from arduino_py import Management
+from pyduino import Management
 settings = Management()
 ```
 and now, you can change the logging and probably later also some other settings.

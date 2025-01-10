@@ -1,8 +1,8 @@
-Metadata-Version: 2.1
-Name: arduino_py
+Metadata-Version: 2.2
+Name: pyduino
 Version: 0.1
 Summary: Python-Bibliothek für die Kommunikation mit Arduino Uno R3 über serielle Schnittstelle
-Home-page: https://github.com/DeinGithubUser/arduino_py
+Home-page: https://github.com/DeinGithubUser/pyduino
 Author: Dein Name
 Author-email: deine.email@example.com
 Classifier: Programming Language :: Python :: 3
@@ -12,6 +12,15 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: pyserial>=3.4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
 # ArduinoPy
 

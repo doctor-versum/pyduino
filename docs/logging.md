@@ -6,7 +6,7 @@ This is a custom logging system. Compatibility with the logging library will be 
 
 First, import the management module, if you haven't already:
 ```
-from arduino_py import Management
+from pyduino import Management
 settings = Management()
 ```
 
