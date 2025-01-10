@@ -40,4 +40,4 @@ and now, you can change the logging and probably later also some other settings.
 ```
 settigns.set_logging(5)
 ```
-A full explenation on, what every level does, is available in the documentation.
+A full explenation on, what every level does, is available in the [documentation](https://github.com/back-from-black/pyduino/blob/main/docs/logging.md).
