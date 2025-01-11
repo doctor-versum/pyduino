@@ -5,13 +5,13 @@ This is a custom logging system. Compatibility with the logging library will be 
 # Usage:
 
 First, import the management module, if you haven't already:
-```
+```python
 from pyduino import Management
 settings = Management()
 ```
 
 Then, you can change the logging settings like this:
-```
+```python
 settings.set_logging(5)
 ```
 
@@ -37,7 +37,7 @@ Logging fully enabled.
 
 **Level 6:**
 With this, you can add a second parameter, which allows you to customize what you get. This has to be in JSON format. Here is a template:
-```
+```python
 {
 	"ERROR": bool,
 	"WARNING": bool,
@@ -46,7 +46,7 @@ With this, you can add a second parameter, which allows you to customize what yo
 }
 ```
 Custom levels can be set like this:
-```
+```python
 settings.set_logging(6, {
     "ERROR": True,
     "WARNING": True,
