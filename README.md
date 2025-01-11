@@ -15,7 +15,7 @@ first, download the arduino remote Firmware. it can be found in is the "Arduino_
 
 then, import ArduinoUnoR3 module:
 
-```
+```python
 from pyduino import ArduinoUnoR3
 arduino = ArduinoUnoR3(port_input, baudrate, pin_config)
 ```
@@ -27,7 +27,7 @@ arduino = ArduinoUnoR3(port_input, baudrate, pin_config)
 
 and lastly, connect to the Arduino:
 
-```
+```python
 arduino.connect()
 ```
 
@@ -37,12 +37,12 @@ Thats it. there is more you can do, but thats all, you have to do, to get the li
 
 import the Management module:
 
-```
+```python
 from pyduino import Management
 settings = Management()
 ```
 and now, you can change the logging and probably later also some other settings.
-```
+```python
 settigns.set_logging(5)
 ```
 A full explenation on, what every level does, is available in the [documentation](https://github.com/back-from-black/pyduino/blob/main/docs/logging.md).
