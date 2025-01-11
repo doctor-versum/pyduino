@@ -1,20 +1,20 @@
 # Commands
 
-```
+```python
 connect()
 ```
 connect to the arduino
 
 ---
 
-```
+```python
 desconnect()
 ```
 close the connection to the arduino
 
 ---
 
-```
+```python
 set_digital_write(pin, state)
 ```
 set the digital state of a pin
@@ -24,7 +24,7 @@ state (str): can either be "HIGH" or "LOW"
 
 ---
 
-```
+```python
 set_analog_write(pin, value)
 ```
 
@@ -35,7 +35,7 @@ value (int): The value to set the pin to. Can be between 0 and 255.
 
 ---
 
-```
+```python
 send_command(command, check_reboot)
 ```
 Send a command to the Arduino. Thhis is only needed, if you have added your own commands to the arduinos Firmware. Otherwise, you can ignore this function.
@@ -45,7 +45,7 @@ check_reboot (bool): Check for a reboot of the Arduino. Default is True. I don't
 
 ---
 
-```
+```python
 get_digital_input(pin, isNumber)
 ```
 Get the state of a digital pin. Remember to set the pin to INPUT or INPUT_PULLUP before using this function.
@@ -58,7 +58,7 @@ Returns:
 
 ---
 
-```
+```python
 get_analog_input(pin)
 ```
 Get the state of an analog pin. Remember to set the pin to INPUT or INPUT_PULLUP before using this function.
@@ -70,7 +70,7 @@ Returns:
 
 ---
 
-```
+```python
 reset()
 ```
 force-restarts the arduino.
