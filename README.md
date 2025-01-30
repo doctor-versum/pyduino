@@ -11,7 +11,7 @@ This is a work-in-progress python library to control a connected arduino over se
 
 # Usage
 
-first, download the arduino remote Firmware. it can be found in is the "Arduino_remote_v<version>".ino file. but make sure, you also copy the folder around it. otherwise, you are going to get an error from the arduino ide. the second step is, to upload the Arduino remote firmware to the arduino. Open the Arduino IDE on your system of choice and open the Project. You can change some varibeles at the top, but it is NOT recommendet, if you don't know, what you are doing. Then, just press upload.
+first, download the arduino remote Firmware. it can be found in is the "Arduino_remote_v<version\>.ino" file. but make sure, you also copy the folder around it. otherwise, you are going to get an error from the arduino ide. the second step is, to upload the Arduino remote firmware to the arduino. Open the Arduino IDE on your system of choice and open the Project. You can change some varibeles at the top, but it is NOT recommendet, if you don't know, what you are doing. Then, just press upload.
 
 then, import ArduinoUnoR3 module:
 
